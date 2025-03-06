@@ -1,0 +1,5 @@
+@use '../abstracts/' as *; // This should be pointing to index.scss which should be forwarding colors.scss
+
+body {
+  background-color: $dark-gray;
+}
